@@ -1,4 +1,4 @@
-const sr = require('scrollreveal')();
+const sr = require('scrollreveal').default();
 
 function generateOptions(defaultOptions, bindingValue, bindingModifiers) {
   const options = Object.assign({}, defaultOptions, bindingValue);
